@@ -1,0 +1,186 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://lavegainnova.es/dataset/agriparcel-historic-join> dcterms:creator "Ministerio de Agricultura, Pesca y Alimentación" ;
+    dcterms:description "Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. Este dataset abarca parámetros de cultivo como coeficientes de  riego y su eficiencia, índice de estrés hídrico, tipo de suelo, tipo de cultivo, sistema de riego y referencias climáticas, además de información descriptiva del cultivo." ;
+    dcterms:license "odc-pddl" ;
+    dcterms:spatial "Madrid" ;
+    dcterms:temporal "14-05-2024 a 31-10-2025" ;
+    dcterms:title "Smart Pivot - Parámetros de cultivo" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agriparcel_historic_join.cda&dataAccessId=crops_agriparcel_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" .
+
+<http://lavegainnova.es/dataset/agroweatherforecast-historic-join> dcterms:creator "Ministerio de Agricultura, Pesca y Alimentación" ;
+    dcterms:description "Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA.Este dataset incluye parámetros de pronósticos meteorológicos y ambientales, como precipitación, humedad relativa, temperatura, dirección y velocidad del viento, radiación solar, evapotranspiración, probabilidad de precipitación, cobertura de nubes, riesgo de heladas, déficit de presión de vapor y horas de enfriamiento, además de información de mantenimiento y referencias a parcelas agrícolas." ;
+    dcterms:license "odc-pddl" ;
+    dcterms:spatial "Madrid" ;
+    dcterms:temporal "14-05-2024 a 31-10-2025" ;
+    dcterms:title "Smart Pivot - Pronósticos meteorológicos y ambientales" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherforecast_historic_join.cda&dataAccessId=crops_agroweatherforecast_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" .
+
+<http://lavegainnova.es/dataset/agroweatherobserved-historic-join> dcterms:creator "Ministerio de Agricultura, Pesca y Alimentación" ;
+    dcterms:description "Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. Este dataset incluye parámetros observados meteorológicos y ambientales, como precipitación, humedad relativa, temperatura, dirección y velocidad del viento, radiación solar, evapotranspiración, probabilidad de precipitación, cobertura de nubes, riesgo de heladas, déficit de presión de vapor y horas de enfriamiento, además de información de mantenimiento y referencias a parcelas agrícolas." ;
+    dcterms:license "odc-pddl" ;
+    dcterms:spatial "Madrid" ;
+    dcterms:temporal "14-05-2024 a 31-10-2025" ;
+    dcterms:title "Smart Pivot - Datos meteorológicos observados" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherobserved_historic_join.cda&dataAccessId=crops_agroweatherobserved_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" .
+
+<http://lavegainnova.es/dataset/agroweatherobserved-historic-join-2> dcterms:creator "Universidad de Córdoba" ;
+    dcterms:description "Este dataset pertenece a un proyecto independiente de dispositivos que se encuentran instalados en la Finca Experimental de Rabanales de la Universidad de Córdoba. Este dataset abarca datos meteorológicos y de condiciones ambientales, como humedad, temperatura, viento, radiación solar, y riesgo de heladas, además de información de batería y referencias a parcelas agrícolas. Datos cedidos a La Vega Innova por la Universidad de Córdoba." ;
+    dcterms:license "odc-pddl" ;
+    dcterms:spatial "Córdoba" ;
+    dcterms:temporal "25-11-2023 a 31-10-2025" ;
+    dcterms:title "Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Datos meteorológicos" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/agroweatherobserved_historic_join.cda&dataAccessId=agrosensors_agroweatherobserved_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" .
+
+<http://lavegainnova.es/dataset/animal-historic-join> dcterms:creator "Ministerio de Agricultura, Pesca y Alimentación" ;
+    dcterms:description "Este dataset contiene parámetros dinámicos de monitorización animal a través de collares IoT dotados con GPS, Termómetro y acelerómetros junto con parámetros pseudoestáticos como raza de animal,sexo de animal, etc. de 4 explotaciones ganaderas en la península Ibérica." ;
+    dcterms:license "odc-pddl" ;
+    dcterms:spatial "España" ;
+    dcterms:temporal "03-12-2024 a 31-05-2025" ;
+    dcterms:title "Cercados Virtuales - Monitorización animal con collares IoT en explotaciones ganaderas" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/virtualenclosures/sql/animal_historic_join.cda&dataAccessId=virtualenclosures_animal_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "ganadería" .
+
+<http://lavegainnova.es/dataset/dataset_prueba_etl> dcterms:creator "Ministerio de Agricultura, Pesca y Alimentación" ;
+    dcterms:description "Este dataset pertenece al Agrolab Fertilización Inteligente que se trata de generar prescripciones de fertilizante basadas en estudios fisicoquimicos y de conductividad en varias de las parcelas perteneciente al CENCA. Este dataset incluye datos sobre las prescripciones de fertilizante incluyendo nutrientes aplicados como nitrógeno, fósforo y potasio, junto con información sobre la fecha de muestreo, identificadores de entidad y parcelas agrícolas, y detalles de cada lote." ;
+    dcterms:license "odc-pddl" ;
+    dcterms:spatial "España" ;
+    dcterms:temporal "03-12-2024 a 31-05-2025" ;
+    dcterms:title "Dataset_prueba_ETL" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellprescription_lastdata.cda&dataAccessId=fertilization_gridcellprescription_lastdata&paramentityid==&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura",
+        "medioambiente" .
+
+<http://lavegainnova.es/dataset/datos-ambientales-y-nivel-de-bateria> dcterms:creator "Universidad de Córdoba" ;
+    dcterms:description "Este dataset pertenece a un proyecto independiente de dispositivos que se encuentran instalados en la Finca Experimental de Rabanales de la Universidad de Córdoba. La tecnología de comunicación es LORAWAN. Este dataset recopila datos ambientales, como humedad relativa, temperatura y nivel de batería, junto con detalles de la entidad, como su nombre, descripción y ruta de servicio. Datos cedidos a La Vega Innova por lua Universidad de Córdoba." ;
+    dcterms:license "odc-pddl" ;
+    dcterms:spatial "Córdoba" ;
+    dcterms:temporal "25-11-2023 a 31-10-2025" ;
+    dcterms:title "Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Datos ambientales y nivel de batería" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/thrsensor_historic_join.cda&dataAccessId=agrosensors_thrsensor_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" .
+
+<http://lavegainnova.es/dataset/gridcellprescription-lastdata-batch> dcterms:creator "Ministerio de Agricultura, Pesca y Alimentación" ;
+    dcterms:description "Este dataset pertenece al Agrolab Fertilización Inteligente que se trata de generar prescripciones de fertilizante basadas en estudios fisicoquimicos y de conductividad en varias de las parcelas perteneciente al CENCA. Este dataset incluye datos sobre las prescripciones de fertilizante incluyendo nutrientes aplicados como nitrógeno, fósforo y potasio, junto con información sobre la fecha de muestreo, identificadores de entidad y parcelas agrícolas, y detalles de cada lote." ;
+    dcterms:license "odc-pddl" ;
+    dcterms:spatial "Madrid" ;
+    dcterms:temporal "20-12-2023 a 31-10-2025" ;
+    dcterms:title "Fertilización Inteligente - Prescripciones de fertilizante" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellprescription_lastdata_batch.cda&dataAccessId=fertilization_batch_gridcellprescription_lastdata&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" .
+
+<http://lavegainnova.es/dataset/gridcellsampling-lastdata-batch> dcterms:creator "Ministerio de Agricultura, Pesca y Alimentación" ;
+    dcterms:description "Este dataset pertenece al Agrolab Fertilización Inteligente que se trata de generar prescripciones de fertilizante basadas en estudios fisicoquimicos y de conductividad en varias de las parcelas perteneciente al CENCA. Este dataset incluye datos sobre los estudios fisicoquímicos del suelo incluyendo datos como nutrientes (nitrógeno, fósforo, potasio), propiedades físicas (conductividad eléctrica, pH, contenido orgánico) y texturales (arena, limo, arcilla), junto con información del lote, fecha de muestreo y referencias a parcelas agrícolas." ;
+    dcterms:license "odc-pddl" ;
+    dcterms:spatial "Madrid" ;
+    dcterms:temporal "20-12-2023 a 31-10-2025" ;
+    dcterms:title "Fertilización Inteligente - Análisis fisicoquímicos del suelo" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellsampling_lastdata_batch.cda&dataAccessId=fertilization_batch_gridcellsampling_lastdata&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" .
+
+<http://lavegainnova.es/dataset/historico-agroclimatico-y-productivo-olivar> dcterms:creator "Ministerio de Agricultura, Pesca y Alimentación" ;
+    dcterms:description "Este dataset pertenece al piloto estimación de rendimiento que se trata de estimar el rendimiento de 4 explotaciones agrarias de olivar situadas en varios puntos de España. Estas estimaciones se han llevado a partir de datos históricos climáticos, satelitales, de producción y otros. Este dataset recopila datos meteorológicos y ambientales, índices de vegetación y teledetección y estimación de producción agrícola y muestra los datos históricos de proyecto." ;
+    dcterms:license "odc-pddl" ;
+    dcterms:spatial "España" ;
+    dcterms:temporal "01-01-2018 a 31-10-2025" ;
+    dcterms:title "Estimación de Rendimiento - Histórico Agroclimático y Productivo Olivar" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=public/ihub_mapa/verticals/harvests/sql/harvest_historic_mutable.cda&dataAccessId=harvest_harvest_mutable&paramentityid=&paramstart=2020-01-01%2000%3A00%3A00&paramfinish=2027-01-31%2023%3A59%3A59&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" .
+
+<http://lavegainnova.es/dataset/irrigationoperation-historic-join> dcterms:creator "Ministerio de Agricultura, Pesca y Alimentación" ;
+    dcterms:description "Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. Este dataset contiene parámetros relacionados con el riego, como el tiempo y cantidad de riego, consumo de agua, referencias a parcelas agrícolas y datos de identificación, además de información descriptiva." ;
+    dcterms:license "odc-pddl" ;
+    dcterms:spatial "Madrid" ;
+    dcterms:temporal "14-05-2024 a 31-10-2025" ;
+    dcterms:title "Smart Pivot - Datos de riego y consumo de agua" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationoperation_historic_join.cda&dataAccessId=crops_irrigationoperation_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" .
+
+<http://lavegainnova.es/dataset/irrigationpivot-historic-join> dcterms:creator "Ministerio de Agricultura, Pesca y Alimentación" ;
+    dcterms:description """Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. \r
+Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiempo de riego, velocidad actual y velocidad máxima teórica, junto con referencias a parcelas agrícolas e información descriptiva.""" ;
+    dcterms:license "odc-pddl" ;
+    dcterms:spatial "Madrid" ;
+    dcterms:temporal "14-05-2024 a 31-10-2025" ;
+    dcterms:title "Smart Pivot - Parámetros del pivot" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationpivot_historic_join.cda&dataAccessId=crops_irrigationpivot_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" .
+
+<http://lavegainnova.es/dataset/irrigationrecommendation-historic-join> dcterms:creator "Ministerio de Agricultura, Pesca y Alimentación" ;
+    dcterms:description """Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. \r
+Este dataset abarca parámetros relacionados con las recomendaciónes futuras incluyendo datos sobre consumo de agua, riego, y parcelas agrícolas, incluyendo identificadores, tiempo, y detalles descriptivos.""" ;
+    dcterms:license "odc-pddl" ;
+    dcterms:spatial "Madrid" ;
+    dcterms:temporal "14-05-2024 a 31-10-2025" ;
+    dcterms:title "Smart Pivot - Recomendaciones futuras de riego" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationrecommendation_historic_join.cda&dataAccessId=crops_irrigationrecommendation_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" .
+
+<http://lavegainnova.es/dataset/irrigationune-lastdata> dcterms:creator "Ministerio de Agricultura, Pesca y Alimentación" ;
+    dcterms:description "Este dataset pertenece al Reto de Innovación Integración de la Norma UNE en Plataforma FIWARE. Incluye los datos históricos recibidos en la plataforma FIWARE de La Vega Innova desde el broker de la Norma UNE del CENTER situado en el CENCA." ;
+    dcterms:license "odc-pddl" ;
+    dcterms:spatial "Madrid" ;
+    dcterms:temporal "25-11-2023 a 31-10-2025" ;
+    dcterms:title "Integración Norma  UNE 318.000 - Datos históricos" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/irrigationune/sql/irrigationune_lastdata.cda&dataAccessId=irrigationune_irrigationune_lastdata&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" .
+
+<http://lavegainnova.es/dataset/soilobserved-historic-join-2> dcterms:creator "Universidad de Córdoba" ;
+    dcterms:description "Este dataset pertenece a un proyecto independiente de dispositivos que se encuentran instalados en la Finca Experimental de Rabanales de la Universidad de Córdoba. La tecnología de comunicación es LORAWAN. Este dataset contiene datos sobre las condiciones del suelo, incluyendo humedad, temperatura y conductividad eléctrica, junto con la profundidad de medición y detalles de la entidad, como su nombre, descripción y ruta de servicio. Datos cedidos a La Vega Innova por lua Universidad de Córdoba." ;
+    dcterms:license "odc-pddl" ;
+    dcterms:spatial "Córdoba" ;
+    dcterms:temporal "25-11-2023 a 31-10-2025" ;
+    dcterms:title "Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Condiciones del suelo" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/soilobserved_historic_join.cda&dataAccessId=agrosensors_soilobserved_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" .
+
+<https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/agroweatherobserved_historic_join.cda&dataAccessId=agrosensors_agroweatherobserved_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/agroweatherobserved_historic_join.cda&dataAccessId=agrosensors_agroweatherobserved_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:mediaType "csv" .
+
+<https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/soilobserved_historic_join.cda&dataAccessId=agrosensors_soilobserved_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/soilobserved_historic_join.cda&dataAccessId=agrosensors_soilobserved_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:mediaType "csv" .
+
+<https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/thrsensor_historic_join.cda&dataAccessId=agrosensors_thrsensor_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/thrsensor_historic_join.cda&dataAccessId=agrosensors_thrsensor_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:mediaType "csv" .
+
+<https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agriparcel_historic_join.cda&dataAccessId=crops_agriparcel_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agriparcel_historic_join.cda&dataAccessId=crops_agriparcel_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:mediaType "csv" .
+
+<https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherforecast_historic_join.cda&dataAccessId=crops_agroweatherforecast_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherforecast_historic_join.cda&dataAccessId=crops_agroweatherforecast_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:mediaType "csv" .
+
+<https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherobserved_historic_join.cda&dataAccessId=crops_agroweatherobserved_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherobserved_historic_join.cda&dataAccessId=crops_agroweatherobserved_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:mediaType "csv" .
+
+<https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationoperation_historic_join.cda&dataAccessId=crops_irrigationoperation_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationoperation_historic_join.cda&dataAccessId=crops_irrigationoperation_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:mediaType "csv" .
+
+<https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationpivot_historic_join.cda&dataAccessId=crops_irrigationpivot_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationpivot_historic_join.cda&dataAccessId=crops_irrigationpivot_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:mediaType "csv" .
+
+<https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationrecommendation_historic_join.cda&dataAccessId=crops_irrigationrecommendation_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationrecommendation_historic_join.cda&dataAccessId=crops_irrigationrecommendation_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:mediaType "csv" .
+
+<https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellprescription_lastdata.cda&dataAccessId=fertilization_gridcellprescription_lastdata&paramentityid==&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellprescription_lastdata.cda&dataAccessId=fertilization_gridcellprescription_lastdata&paramentityid==&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:mediaType "csv" .
+
+<https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellprescription_lastdata_batch.cda&dataAccessId=fertilization_batch_gridcellprescription_lastdata&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellprescription_lastdata_batch.cda&dataAccessId=fertilization_batch_gridcellprescription_lastdata&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:mediaType "csv" .
+
+<https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellsampling_lastdata_batch.cda&dataAccessId=fertilization_batch_gridcellsampling_lastdata&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellsampling_lastdata_batch.cda&dataAccessId=fertilization_batch_gridcellsampling_lastdata&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:mediaType "csv" .
+
+<https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/irrigationune/sql/irrigationune_lastdata.cda&dataAccessId=irrigationune_irrigationune_lastdata&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/irrigationune/sql/irrigationune_lastdata.cda&dataAccessId=irrigationune_irrigationune_lastdata&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:mediaType "csv" .
+
+<https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/virtualenclosures/sql/animal_historic_join.cda&dataAccessId=virtualenclosures_animal_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/virtualenclosures/sql/animal_historic_join.cda&dataAccessId=virtualenclosures_animal_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:mediaType "csv" .
+
+<https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=public/ihub_mapa/verticals/harvests/sql/harvest_historic_mutable.cda&dataAccessId=harvest_harvest_mutable&paramentityid=&paramstart=2020-01-01%2000%3A00%3A00&paramfinish=2027-01-31%2023%3A59%3A59&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=public/ihub_mapa/verticals/harvests/sql/harvest_historic_mutable.cda&dataAccessId=harvest_harvest_mutable&paramentityid=&paramstart=2020-01-01%2000%3A00%3A00&paramfinish=2027-01-31%2023%3A59%3A59&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:mediaType "csv" .
+
