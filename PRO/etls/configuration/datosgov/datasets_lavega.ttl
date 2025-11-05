@@ -299,5 +299,5 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
     dcat:mediaType "csv" .
 
 <http://lavegainnova.es/dataset/catalogo> a foaf:Agent ;
-    dcat:title "Catálogo de datos del Ministerio de Agricultura, Pesca y Alimentación" .
+    dcterms:title "Catálogo de datos del Ministerio de Agricultura, Pesca y Alimentación" .
 
