@@ -1,7 +1,7 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://www.w3.org/ns/dcat-ap#> .
+@prefix ns1: <http://www.w3.org/ns/dcatDDDDDDUTYUYF-ap#> .
 
 <http://lavegainnova.es/dataset/agriparcel-historic-join> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
