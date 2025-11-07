@@ -11,8 +11,7 @@
     dcterms:issued "2025-02-01" ;
     dcterms:modified "2025-04-02" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:spatial "Córdoba" ;
     dcterms:temporal "25-11-2023 a 31-10-2025" ;
     dcterms:title "Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Datos meteorológicos" ;
     dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/agroweatherobserved_historic_join.cda&dataAccessId=agrosensors_agroweatherobserved_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
@@ -27,8 +26,7 @@
     dcterms:issued "2025-02-01" ;
     dcterms:modified "2025-04-02" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:spatial "Madrid" ;
     dcterms:temporal "14-05-2024 a 31-10-2025" ;
     dcterms:title "Smart Pivot - Datos de riego y consumo de agua" ;
     dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationoperation_historic_join.cda&dataAccessId=crops_irrigationoperation_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
@@ -43,8 +41,7 @@
     dcterms:issued "2025-02-01" ;
     dcterms:modified "2025-04-02" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:spatial "Madrid" ;
     dcterms:temporal "14-05-2024 a 31-10-2025" ;
     dcterms:title "Smart Pivot - Datos meteorológicos observados" ;
     dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherobserved_historic_join.cda&dataAccessId=crops_agroweatherobserved_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
@@ -59,8 +56,7 @@
     dcterms:issued "2025-02-01" ;
     dcterms:modified "2025-04-02" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:spatial "Madrid" ;
     dcterms:temporal "20-12-2023 a 31-10-2025" ;
     dcterms:title "Fertilización Inteligente - Prescripciones de fertilizante" ;
     dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellprescription_lastdata_batch.cda&dataAccessId=fertilization_batch_gridcellprescription_lastdata&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
@@ -75,8 +71,7 @@
     dcterms:issued "2025-02-01" ;
     dcterms:modified "2025-04-02" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:spatial "Madrid" ;
     dcterms:temporal "14-05-2024 a 31-10-2025" ;
     dcterms:title "Smart Pivot - Parámetros de cultivo" ;
     dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agriparcel_historic_join.cda&dataAccessId=crops_agriparcel_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
@@ -92,8 +87,7 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
     dcterms:issued "2025-02-01" ;
     dcterms:modified "2025-04-02" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:spatial "Madrid" ;
     dcterms:temporal "14-05-2024 a 31-10-2025" ;
     dcterms:title "Smart Pivot - Recomendaciones futuras de riego" ;
     dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationrecommendation_historic_join.cda&dataAccessId=crops_irrigationrecommendation_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
@@ -109,8 +103,7 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
     dcterms:issued "2025-09-12" ;
     dcterms:modified "2025-09-12" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:spatial "España" ;
     dcterms:temporal "03-12-2024 a 31-05-2025" ;
     dcterms:title "Dataset_prueba_ETL" ;
     dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellprescription_lastdata.cda&dataAccessId=fertilization_gridcellprescription_lastdata&paramentityid==&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
@@ -127,8 +120,7 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
     dcterms:issued "2025-02-20" ;
     dcterms:modified "2025-09-12" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:spatial "España" ;
     dcterms:temporal "01-01-2018 a 31-10-2025" ;
     dcterms:title "Estimación de Rendimiento - Histórico Agroclimático y Productivo Olivar" ;
     dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=public/ihub_mapa/verticals/harvests/sql/harvest_historic_mutable.cda&dataAccessId=harvest_harvest_mutable&paramentityid=&paramstart=2020-01-01%2000%3A00%3A00&paramfinish=2027-01-31%2023%3A59%3A59&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
@@ -144,8 +136,7 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     dcterms:issued "2025-02-01" ;
     dcterms:modified "2025-04-02" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:spatial "Madrid" ;
     dcterms:temporal "14-05-2024 a 31-10-2025" ;
     dcterms:title "Smart Pivot - Parámetros del pivot" ;
     dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationpivot_historic_join.cda&dataAccessId=crops_irrigationpivot_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
@@ -161,8 +152,7 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     dcterms:issued "2025-01-30" ;
     dcterms:modified "2025-04-02" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:spatial "España" ;
     dcterms:temporal "03-12-2024 a 31-05-2025" ;
     dcterms:title "Cercados Virtuales - Monitorización animal con collares IoT en explotaciones ganaderas" ;
     dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/virtualenclosures/sql/animal_historic_join.cda&dataAccessId=virtualenclosures_animal_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
@@ -178,8 +168,7 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     dcterms:issued "2025-04-02" ;
     dcterms:modified "2025-04-24" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:spatial "Córdoba" ;
     dcterms:temporal "25-11-2023 a 31-10-2025" ;
     dcterms:title "Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Datos ambientales y nivel de batería" ;
     dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/thrsensor_historic_join.cda&dataAccessId=agrosensors_thrsensor_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
@@ -194,8 +183,7 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     dcterms:issued "2025-02-01" ;
     dcterms:modified "2025-04-02" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:spatial "Madrid" ;
     dcterms:temporal "14-05-2024 a 31-10-2025" ;
     dcterms:title "Smart Pivot - Pronósticos meteorológicos y ambientales" ;
     dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherforecast_historic_join.cda&dataAccessId=crops_agroweatherforecast_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
@@ -211,8 +199,7 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     dcterms:issued "2025-02-01" ;
     dcterms:modified "2025-04-02" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:spatial "Madrid" ;
     dcterms:temporal "25-11-2023 a 31-10-2025" ;
     dcterms:title "Integración Norma  UNE 318.000 - Datos históricos" ;
     dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/irrigationune/sql/irrigationune_lastdata.cda&dataAccessId=irrigationune_irrigationune_lastdata&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
@@ -227,8 +214,7 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     dcterms:issued "2025-02-01" ;
     dcterms:modified "2025-04-02" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:spatial "Madrid" ;
     dcterms:temporal "20-12-2023 a 31-10-2025" ;
     dcterms:title "Fertilización Inteligente - Análisis fisicoquímicos del suelo" ;
     dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellsampling_lastdata_batch.cda&dataAccessId=fertilization_batch_gridcellsampling_lastdata&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
@@ -244,8 +230,7 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     dcterms:issued "2025-02-01" ;
     dcterms:modified "2025-04-02" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:spatial "Córdoba" ;
     dcterms:temporal "25-11-2023 a 31-10-2025" ;
     dcterms:title "Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Condiciones del suelo" ;
     dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/soilobserved_historic_join.cda&dataAccessId=agrosensors_soilobserved_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
