@@ -1,61 +1,13 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://www.w3.org/ns/dcatDDDDDDUTYUYF-ap#> .
+@prefix ns1: <http://www.w3.org/ns/dcat-ap#> .
 
-<http://lavegainnova.es/dataset/agriparcel-historic-join> a dcat:Dataset ;
-    dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:description "Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. Este dataset abarca parámetros de cultivo como coeficientes de  riego y su eficiencia, índice de estrés hídrico, tipo de suelo, tipo de cultivo, sistema de riego y referencias climáticas, además de información descriptiva del cultivo." ;
-    dcterms:identifier "ES.MAPA.agriparcel-historic-join" ;
-    dcterms:issued "2025-02-01" ;
-    dcterms:modified "2025-04-02" ;
-    dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
-    dcterms:temporal "14-05-2024 a 31-10-2025" ;
-    dcterms:title "Smart Pivot - Parámetros de cultivo" ;
-    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agriparcel_historic_join.cda&dataAccessId=crops_agriparcel_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
-    dcat:keyword "agricultura" ;
-    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
-    ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
-
-<http://lavegainnova.es/dataset/agroweatherforecast-historic-join> a dcat:Dataset ;
-    dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:description "Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA.Este dataset incluye parámetros de pronósticos meteorológicos y ambientales, como precipitación, humedad relativa, temperatura, dirección y velocidad del viento, radiación solar, evapotranspiración, probabilidad de precipitación, cobertura de nubes, riesgo de heladas, déficit de presión de vapor y horas de enfriamiento, además de información de mantenimiento y referencias a parcelas agrícolas." ;
-    dcterms:identifier "ES.MAPA.agroweatherforecast-historic-join" ;
-    dcterms:issued "2025-02-01" ;
-    dcterms:modified "2025-04-02" ;
-    dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
-    dcterms:temporal "14-05-2024 a 31-10-2025" ;
-    dcterms:title "Smart Pivot - Pronósticos meteorológicos y ambientales" ;
-    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherforecast_historic_join.cda&dataAccessId=crops_agroweatherforecast_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
-    dcat:keyword "agricultura" ;
-    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
-    ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
-
-<http://lavegainnova.es/dataset/agroweatherobserved-historic-join> a dcat:Dataset ;
-    dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:description "Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. Este dataset incluye parámetros observados meteorológicos y ambientales, como precipitación, humedad relativa, temperatura, dirección y velocidad del viento, radiación solar, evapotranspiración, probabilidad de precipitación, cobertura de nubes, riesgo de heladas, déficit de presión de vapor y horas de enfriamiento, además de información de mantenimiento y referencias a parcelas agrícolas." ;
-    dcterms:identifier "ES.MAPA.agroweatherobserved-historic-join" ;
-    dcterms:issued "2025-02-01" ;
-    dcterms:modified "2025-04-02" ;
-    dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
-    dcterms:temporal "14-05-2024 a 31-10-2025" ;
-    dcterms:title "Smart Pivot - Datos meteorológicos observados" ;
-    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherobserved_historic_join.cda&dataAccessId=crops_agroweatherobserved_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
-    dcat:keyword "agricultura" ;
-    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
-    ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
-
-<http://lavegainnova.es/dataset/agroweatherobserved-historic-join-2> a dcat:Dataset ;
+<http://lavegainnova.es/dataset/1da2aaa5-892b-4fe2-bca9-48e83c3fbcc9> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
     dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/MONTHLY> ;
     dcterms:description "Este dataset pertenece a un proyecto independiente de dispositivos que se encuentran instalados en la Finca Experimental de Rabanales de la Universidad de Córdoba. Este dataset abarca datos meteorológicos y de condiciones ambientales, como humedad, temperatura, viento, radiación solar, y riesgo de heladas, además de información de batería y referencias a parcelas agrícolas. Datos cedidos a La Vega Innova por la Universidad de Córdoba." ;
-    dcterms:identifier "ES.MAPA.agroweatherobserved-historic-join-2" ;
+    dcterms:identifier "1da2aaa5-892b-4fe2-bca9-48e83c3fbcc9" ;
     dcterms:issued "2025-02-01" ;
     dcterms:modified "2025-04-02" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
@@ -68,28 +20,92 @@
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
     ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
 
-<http://lavegainnova.es/dataset/animal-historic-join> a dcat:Dataset ;
+<http://lavegainnova.es/dataset/2a4f788d-49f4-402d-8acc-9600ab7c0fec> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/MONTHLY> ;
-    dcterms:description "Este dataset contiene parámetros dinámicos de monitorización animal a través de collares IoT dotados con GPS, Termómetro y acelerómetros junto con parámetros pseudoestáticos como raza de animal,sexo de animal, etc. de 4 explotaciones ganaderas en la península Ibérica." ;
-    dcterms:identifier "ES.MAPA.animal-historic-join" ;
-    dcterms:issued "2025-01-30" ;
+    dcterms:description "Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. Este dataset contiene parámetros relacionados con el riego, como el tiempo y cantidad de riego, consumo de agua, referencias a parcelas agrícolas y datos de identificación, además de información descriptiva." ;
+    dcterms:identifier "2a4f788d-49f4-402d-8acc-9600ab7c0fec" ;
+    dcterms:issued "2025-02-01" ;
     dcterms:modified "2025-04-02" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
     dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
         <http://publications.europa.eu/resource/authority/country/ESP> ;
-    dcterms:temporal "03-12-2024 a 31-05-2025" ;
-    dcterms:title "Cercados Virtuales - Monitorización animal con collares IoT en explotaciones ganaderas" ;
-    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/virtualenclosures/sql/animal_historic_join.cda&dataAccessId=virtualenclosures_animal_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
-    dcat:keyword "ganadería" ;
+    dcterms:temporal "14-05-2024 a 31-10-2025" ;
+    dcterms:title "Smart Pivot - Datos de riego y consumo de agua" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationoperation_historic_join.cda&dataAccessId=crops_irrigationoperation_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" ;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
     ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
 
-<http://lavegainnova.es/dataset/dataset_prueba_etl> a dcat:Dataset ;
+<http://lavegainnova.es/dataset/2d0e29f2-8f86-49b5-b21f-7114a5c832d0> a dcat:Dataset ;
+    dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:description "Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. Este dataset incluye parámetros observados meteorológicos y ambientales, como precipitación, humedad relativa, temperatura, dirección y velocidad del viento, radiación solar, evapotranspiración, probabilidad de precipitación, cobertura de nubes, riesgo de heladas, déficit de presión de vapor y horas de enfriamiento, además de información de mantenimiento y referencias a parcelas agrícolas." ;
+    dcterms:identifier "2d0e29f2-8f86-49b5-b21f-7114a5c832d0" ;
+    dcterms:issued "2025-02-01" ;
+    dcterms:modified "2025-04-02" ;
+    dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
+        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:temporal "14-05-2024 a 31-10-2025" ;
+    dcterms:title "Smart Pivot - Datos meteorológicos observados" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherobserved_historic_join.cda&dataAccessId=crops_agroweatherobserved_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
+    ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
+
+<http://lavegainnova.es/dataset/3422e507-6394-4235-9cf4-187cb04ddf31> a dcat:Dataset ;
+    dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:description "Este dataset pertenece al Agrolab Fertilización Inteligente que se trata de generar prescripciones de fertilizante basadas en estudios fisicoquimicos y de conductividad en varias de las parcelas perteneciente al CENCA. Este dataset incluye datos sobre las prescripciones de fertilizante incluyendo nutrientes aplicados como nitrógeno, fósforo y potasio, junto con información sobre la fecha de muestreo, identificadores de entidad y parcelas agrícolas, y detalles de cada lote." ;
+    dcterms:identifier "3422e507-6394-4235-9cf4-187cb04ddf31" ;
+    dcterms:issued "2025-02-01" ;
+    dcterms:modified "2025-04-02" ;
+    dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
+        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:temporal "20-12-2023 a 31-10-2025" ;
+    dcterms:title "Fertilización Inteligente - Prescripciones de fertilizante" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellprescription_lastdata_batch.cda&dataAccessId=fertilization_batch_gridcellprescription_lastdata&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
+    ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
+
+<http://lavegainnova.es/dataset/3e0313e1-bac8-4d5e-aa02-35f37d33907e> a dcat:Dataset ;
+    dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:description "Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. Este dataset abarca parámetros de cultivo como coeficientes de  riego y su eficiencia, índice de estrés hídrico, tipo de suelo, tipo de cultivo, sistema de riego y referencias climáticas, además de información descriptiva del cultivo." ;
+    dcterms:identifier "3e0313e1-bac8-4d5e-aa02-35f37d33907e" ;
+    dcterms:issued "2025-02-01" ;
+    dcterms:modified "2025-04-02" ;
+    dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
+        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:temporal "14-05-2024 a 31-10-2025" ;
+    dcterms:title "Smart Pivot - Parámetros de cultivo" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agriparcel_historic_join.cda&dataAccessId=crops_agriparcel_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
+    ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
+
+<http://lavegainnova.es/dataset/402c32a8-1278-4b69-8cee-ace354948d1c> a dcat:Dataset ;
+    dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:description """Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. \r
+Este dataset abarca parámetros relacionados con las recomendaciónes futuras incluyendo datos sobre consumo de agua, riego, y parcelas agrícolas, incluyendo identificadores, tiempo, y detalles descriptivos.""" ;
+    dcterms:identifier "402c32a8-1278-4b69-8cee-ace354948d1c" ;
+    dcterms:issued "2025-02-01" ;
+    dcterms:modified "2025-04-02" ;
+    dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
+        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:temporal "14-05-2024 a 31-10-2025" ;
+    dcterms:title "Smart Pivot - Recomendaciones futuras de riego" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationrecommendation_historic_join.cda&dataAccessId=crops_irrigationrecommendation_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
+    ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
+
+<http://lavegainnova.es/dataset/46aeac41-9077-4786-ad4f-cf79d3b35b57> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
     dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/MONTHLY> ;
     dcterms:description "Este dataset pertenece al Agrolab Fertilización Inteligente que se trata de generar prescripciones de fertilizante basadas en estudios fisicoquimicos y de conductividad en varias de las parcelas perteneciente al CENCA. Este dataset incluye datos sobre las prescripciones de fertilizante incluyendo nutrientes aplicados como nitrógeno, fósforo y potasio, junto con información sobre la fecha de muestreo, identificadores de entidad y parcelas agrícolas, y detalles de cada lote." ;
-    dcterms:identifier "ES.MAPA.dataset_prueba_etl" ;
+    dcterms:identifier "46aeac41-9077-4786-ad4f-cf79d3b35b57" ;
     dcterms:issued "2025-09-12" ;
     dcterms:modified "2025-09-12" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
@@ -103,60 +119,11 @@
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
     ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
 
-<http://lavegainnova.es/dataset/datos-ambientales-y-nivel-de-bateria> a dcat:Dataset ;
-    dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/MONTHLY> ;
-    dcterms:description "Este dataset pertenece a un proyecto independiente de dispositivos que se encuentran instalados en la Finca Experimental de Rabanales de la Universidad de Córdoba. La tecnología de comunicación es LORAWAN. Este dataset recopila datos ambientales, como humedad relativa, temperatura y nivel de batería, junto con detalles de la entidad, como su nombre, descripción y ruta de servicio. Datos cedidos a La Vega Innova por lua Universidad de Córdoba." ;
-    dcterms:identifier "ES.MAPA.datos-ambientales-y-nivel-de-bateria" ;
-    dcterms:issued "2025-04-02" ;
-    dcterms:modified "2025-04-24" ;
-    dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
-    dcterms:temporal "25-11-2023 a 31-10-2025" ;
-    dcterms:title "Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Datos ambientales y nivel de batería" ;
-    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/thrsensor_historic_join.cda&dataAccessId=agrosensors_thrsensor_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
-    dcat:keyword "agricultura" ;
-    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
-    ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
-
-<http://lavegainnova.es/dataset/gridcellprescription-lastdata-batch> a dcat:Dataset ;
-    dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:description "Este dataset pertenece al Agrolab Fertilización Inteligente que se trata de generar prescripciones de fertilizante basadas en estudios fisicoquimicos y de conductividad en varias de las parcelas perteneciente al CENCA. Este dataset incluye datos sobre las prescripciones de fertilizante incluyendo nutrientes aplicados como nitrógeno, fósforo y potasio, junto con información sobre la fecha de muestreo, identificadores de entidad y parcelas agrícolas, y detalles de cada lote." ;
-    dcterms:identifier "ES.MAPA.gridcellprescription-lastdata-batch" ;
-    dcterms:issued "2025-02-01" ;
-    dcterms:modified "2025-04-02" ;
-    dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
-    dcterms:temporal "20-12-2023 a 31-10-2025" ;
-    dcterms:title "Fertilización Inteligente - Prescripciones de fertilizante" ;
-    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellprescription_lastdata_batch.cda&dataAccessId=fertilization_batch_gridcellprescription_lastdata&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
-    dcat:keyword "agricultura" ;
-    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
-    ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
-
-<http://lavegainnova.es/dataset/gridcellsampling-lastdata-batch> a dcat:Dataset ;
-    dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:description "Este dataset pertenece al Agrolab Fertilización Inteligente que se trata de generar prescripciones de fertilizante basadas en estudios fisicoquimicos y de conductividad en varias de las parcelas perteneciente al CENCA. Este dataset incluye datos sobre los estudios fisicoquímicos del suelo incluyendo datos como nutrientes (nitrógeno, fósforo, potasio), propiedades físicas (conductividad eléctrica, pH, contenido orgánico) y texturales (arena, limo, arcilla), junto con información del lote, fecha de muestreo y referencias a parcelas agrícolas." ;
-    dcterms:identifier "ES.MAPA.gridcellsampling-lastdata-batch" ;
-    dcterms:issued "2025-02-01" ;
-    dcterms:modified "2025-04-02" ;
-    dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
-    dcterms:temporal "20-12-2023 a 31-10-2025" ;
-    dcterms:title "Fertilización Inteligente - Análisis fisicoquímicos del suelo" ;
-    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellsampling_lastdata_batch.cda&dataAccessId=fertilization_batch_gridcellsampling_lastdata&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
-    dcat:keyword "agricultura" ;
-    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
-    ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
-
-<http://lavegainnova.es/dataset/historico-agroclimatico-y-productivo-olivar> a dcat:Dataset ;
+<http://lavegainnova.es/dataset/5fdc8cc9-a042-410f-85e3-66ec3615c9f3> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
     dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/MONTHLY> ;
     dcterms:description "Este dataset pertenece al piloto estimación de rendimiento que se trata de estimar el rendimiento de 4 explotaciones agrarias de olivar situadas en varios puntos de España. Estas estimaciones se han llevado a partir de datos históricos climáticos, satelitales, de producción y otros. Este dataset recopila datos meteorológicos y ambientales, índices de vegetación y teledetección y estimación de producción agrícola y muestra los datos históricos de proyecto." ;
-    dcterms:identifier "ES.MAPA.historico-agroclimatico-y-productivo-olivar" ;
+    dcterms:identifier "5fdc8cc9-a042-410f-85e3-66ec3615c9f3" ;
     dcterms:issued "2025-02-20" ;
     dcterms:modified "2025-09-12" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
@@ -169,27 +136,11 @@
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
     ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
 
-<http://lavegainnova.es/dataset/irrigationoperation-historic-join> a dcat:Dataset ;
-    dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:description "Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. Este dataset contiene parámetros relacionados con el riego, como el tiempo y cantidad de riego, consumo de agua, referencias a parcelas agrícolas y datos de identificación, además de información descriptiva." ;
-    dcterms:identifier "ES.MAPA.irrigationoperation-historic-join" ;
-    dcterms:issued "2025-02-01" ;
-    dcterms:modified "2025-04-02" ;
-    dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
-        <http://publications.europa.eu/resource/authority/country/ESP> ;
-    dcterms:temporal "14-05-2024 a 31-10-2025" ;
-    dcterms:title "Smart Pivot - Datos de riego y consumo de agua" ;
-    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationoperation_historic_join.cda&dataAccessId=crops_irrigationoperation_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
-    dcat:keyword "agricultura" ;
-    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
-    ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
-
-<http://lavegainnova.es/dataset/irrigationpivot-historic-join> a dcat:Dataset ;
+<http://lavegainnova.es/dataset/61666b49-c102-4ee7-8878-84bc047f2243> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
     dcterms:description """Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. \r
 Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiempo de riego, velocidad actual y velocidad máxima teórica, junto con referencias a parcelas agrícolas e información descriptiva.""" ;
-    dcterms:identifier "ES.MAPA.irrigationpivot-historic-join" ;
+    dcterms:identifier "61666b49-c102-4ee7-8878-84bc047f2243" ;
     dcterms:issued "2025-02-01" ;
     dcterms:modified "2025-04-02" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
@@ -202,28 +153,61 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
     ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
 
-<http://lavegainnova.es/dataset/irrigationrecommendation-historic-join> a dcat:Dataset ;
+<http://lavegainnova.es/dataset/6940281b-e8f6-449e-b7d8-0c51b9d5db7d> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:description """Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. \r
-Este dataset abarca parámetros relacionados con las recomendaciónes futuras incluyendo datos sobre consumo de agua, riego, y parcelas agrícolas, incluyendo identificadores, tiempo, y detalles descriptivos.""" ;
-    dcterms:identifier "ES.MAPA.irrigationrecommendation-historic-join" ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/MONTHLY> ;
+    dcterms:description "Este dataset contiene parámetros dinámicos de monitorización animal a través de collares IoT dotados con GPS, Termómetro y acelerómetros junto con parámetros pseudoestáticos como raza de animal,sexo de animal, etc. de 4 explotaciones ganaderas en la península Ibérica." ;
+    dcterms:identifier "6940281b-e8f6-449e-b7d8-0c51b9d5db7d" ;
+    dcterms:issued "2025-01-30" ;
+    dcterms:modified "2025-04-02" ;
+    dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
+        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:temporal "03-12-2024 a 31-05-2025" ;
+    dcterms:title "Cercados Virtuales - Monitorización animal con collares IoT en explotaciones ganaderas" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/virtualenclosures/sql/animal_historic_join.cda&dataAccessId=virtualenclosures_animal_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "ganadería" ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
+    ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
+
+<http://lavegainnova.es/dataset/7bc1d2c8-bb52-4af0-ab01-9fab31d52ac3> a dcat:Dataset ;
+    dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/MONTHLY> ;
+    dcterms:description "Este dataset pertenece a un proyecto independiente de dispositivos que se encuentran instalados en la Finca Experimental de Rabanales de la Universidad de Córdoba. La tecnología de comunicación es LORAWAN. Este dataset recopila datos ambientales, como humedad relativa, temperatura y nivel de batería, junto con detalles de la entidad, como su nombre, descripción y ruta de servicio. Datos cedidos a La Vega Innova por lua Universidad de Córdoba." ;
+    dcterms:identifier "7bc1d2c8-bb52-4af0-ab01-9fab31d52ac3" ;
+    dcterms:issued "2025-04-02" ;
+    dcterms:modified "2025-04-24" ;
+    dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
+        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:temporal "25-11-2023 a 31-10-2025" ;
+    dcterms:title "Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Datos ambientales y nivel de batería" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/thrsensor_historic_join.cda&dataAccessId=agrosensors_thrsensor_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
+    ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
+
+<http://lavegainnova.es/dataset/9590faa4-5b78-4ba9-ad62-6dccfcb512d9> a dcat:Dataset ;
+    dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:description "Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA.Este dataset incluye parámetros de pronósticos meteorológicos y ambientales, como precipitación, humedad relativa, temperatura, dirección y velocidad del viento, radiación solar, evapotranspiración, probabilidad de precipitación, cobertura de nubes, riesgo de heladas, déficit de presión de vapor y horas de enfriamiento, además de información de mantenimiento y referencias a parcelas agrícolas." ;
+    dcterms:identifier "9590faa4-5b78-4ba9-ad62-6dccfcb512d9" ;
     dcterms:issued "2025-02-01" ;
     dcterms:modified "2025-04-02" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
     dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
         <http://publications.europa.eu/resource/authority/country/ESP> ;
     dcterms:temporal "14-05-2024 a 31-10-2025" ;
-    dcterms:title "Smart Pivot - Recomendaciones futuras de riego" ;
-    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationrecommendation_historic_join.cda&dataAccessId=crops_irrigationrecommendation_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcterms:title "Smart Pivot - Pronósticos meteorológicos y ambientales" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherforecast_historic_join.cda&dataAccessId=crops_agroweatherforecast_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
     dcat:keyword "agricultura" ;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
     ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
 
-<http://lavegainnova.es/dataset/irrigationune-lastdata> a dcat:Dataset ;
+<http://lavegainnova.es/dataset/b2532ab2-1ad7-4ed7-909a-295f21b7d143> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
     dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/MONTHLY> ;
     dcterms:description "Este dataset pertenece al Reto de Innovación Integración de la Norma UNE en Plataforma FIWARE. Incluye los datos históricos recibidos en la plataforma FIWARE de La Vega Innova desde el broker de la Norma UNE del CENTER situado en el CENCA." ;
-    dcterms:identifier "ES.MAPA.irrigationune-lastdata" ;
+    dcterms:identifier "b2532ab2-1ad7-4ed7-909a-295f21b7d143" ;
     dcterms:issued "2025-02-01" ;
     dcterms:modified "2025-04-02" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
@@ -236,11 +220,27 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
     ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
 
-<http://lavegainnova.es/dataset/soilobserved-historic-join-2> a dcat:Dataset ;
+<http://lavegainnova.es/dataset/ceb48d59-1e5d-407d-bb43-b0c84b9e2438> a dcat:Dataset ;
+    dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:description "Este dataset pertenece al Agrolab Fertilización Inteligente que se trata de generar prescripciones de fertilizante basadas en estudios fisicoquimicos y de conductividad en varias de las parcelas perteneciente al CENCA. Este dataset incluye datos sobre los estudios fisicoquímicos del suelo incluyendo datos como nutrientes (nitrógeno, fósforo, potasio), propiedades físicas (conductividad eléctrica, pH, contenido orgánico) y texturales (arena, limo, arcilla), junto con información del lote, fecha de muestreo y referencias a parcelas agrícolas." ;
+    dcterms:identifier "ceb48d59-1e5d-407d-bb43-b0c84b9e2438" ;
+    dcterms:issued "2025-02-01" ;
+    dcterms:modified "2025-04-02" ;
+    dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
+    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Pais/España>,
+        <http://publications.europa.eu/resource/authority/country/ESP> ;
+    dcterms:temporal "20-12-2023 a 31-10-2025" ;
+    dcterms:title "Fertilización Inteligente - Análisis fisicoquímicos del suelo" ;
+    dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellsampling_lastdata_batch.cda&dataAccessId=fertilization_batch_gridcellsampling_lastdata&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
+    dcat:keyword "agricultura" ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
+    ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
+
+<http://lavegainnova.es/dataset/da8e6f5e-3c8b-4672-ac98-709af0ae65ec> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
     dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/MONTHLY> ;
     dcterms:description "Este dataset pertenece a un proyecto independiente de dispositivos que se encuentran instalados en la Finca Experimental de Rabanales de la Universidad de Córdoba. La tecnología de comunicación es LORAWAN. Este dataset contiene datos sobre las condiciones del suelo, incluyendo humedad, temperatura y conductividad eléctrica, junto con la profundidad de medición y detalles de la entidad, como su nombre, descripción y ruta de servicio. Datos cedidos a La Vega Innova por lua Universidad de Córdoba." ;
-    dcterms:identifier "ES.MAPA.soilobserved-historic-join-2" ;
+    dcterms:identifier "da8e6f5e-3c8b-4672-ac98-709af0ae65ec" ;
     dcterms:issued "2025-02-01" ;
     dcterms:modified "2025-04-02" ;
     dcterms:publisher <http://lavegainnova.es/dataset/catalogo> ;
