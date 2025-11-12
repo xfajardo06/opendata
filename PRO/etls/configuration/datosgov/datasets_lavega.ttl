@@ -1,13 +1,14 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ns1: <http://www.w3.org/ns/dcat-ap#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://lavegainnova.es/dataset/7bc1d2c8-bb52-4af0-ab01-9fab31d52ac3> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
     dcterms:description "Este dataset pertenece a un proyecto independiente de dispositivos que se encuentran instalados en la Finca Experimental de Rabanales de la Universidad de Córdoba. La tecnología de comunicación es LORAWAN. Este dataset recopila datos ambientales, como humedad relativa, temperatura y nivel de batería, junto con detalles de la entidad, como su nombre, descripción y ruta de servicio. Datos cedidos a La Vega Innova por lua Universidad de Córdoba."@es ;
     dcterms:identifier "7bc1d2c8-bb52-4af0-ab01-9fab31d52ac3" ;
-    dcterms:issued "2025-04-02" ;
-    dcterms:modified "2025-04-24" ;
+    dcterms:issued "2025-04-02"^^xsd:date ;
+    dcterms:modified "2025-04-24"^^xsd:date ;
     dcterms:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401> ;
     dcterms:spatial "Córdoba" ;
     dcterms:temporal "25-11-2023 a 31-10-2025" ;
