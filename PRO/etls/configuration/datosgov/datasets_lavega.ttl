@@ -13,7 +13,7 @@
     dcterms:temporal "25-11-2023 a 31-10-2025" ;
     dcterms:title "Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Datos ambientales y nivel de batería"@es ;
     dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/thrsensor_historic_join.cda&dataAccessId=agrosensors_thrsensor_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
-    dcat:keyword "agricultura" ;
+    dcat:keyword "agricultura"@es ;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
     ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
 
