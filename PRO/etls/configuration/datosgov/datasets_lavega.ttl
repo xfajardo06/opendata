@@ -24,9 +24,13 @@
             ns2:hasURL <https://lavegainnova.es> ;
             ns2:organization_name "La Vega Innova"@es ] ;
     dcat:distribution [ a dcat:Distribution ;
+            dcterms:description ""@es ;
+            dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+            dcterms:license <http://www.opendefinition.org/licenses/odc-pddl> ;
             dcterms:title "thrsensor_historic_join"@es ;
             dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/thrsensor_historic_join.cda&dataAccessId=agrosensors_thrsensor_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
-            dcat:mediaType "text/csv" ;
+            dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
+            ns1:applicableLegislation "Reglamento de Implementación 2023/138" ;
             ns1:availability <http://data.europa.eu/r5r/availability/available> ] ;
     dcat:keyword "agricultura"@es ;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
