@@ -1,7 +1,7 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ns1: <http://www.w3.org/2006/vcard/ns#> .
-@prefix ns2: <http://www.w3.org/ns/dcat-ap#> .
+@prefix ns1: <http://www.w3.org/ns/dcat-ap#> .
+@prefix ns2: <http://www.w3.org/2006/vcard/ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -17,12 +17,12 @@
             dcat:endDate "2025-10-31"^^xsd:date ;
             dcat:startDate "2023-11-25"^^xsd:date ] ;
     dcterms:title "Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Datos ambientales y nivel de batería"@es ;
-    dcat:contactPoint [ a ns1:Kind ;
-            ns1:fn "La Vega Innova"@es ;
-            ns1:hasEmail <mailto:info@lavegainnova.es> ;
-            ns1:hasTelephone <tel:+34-000-000-000> ;
-            ns1:hasURL <https://lavegainnova.es> ;
-            ns1:organization_name "La Vega Innova"@es ] ;
+    dcat:contactPoint [ a ns2:Kind ;
+            ns2:fn "La Vega Innova"@es ;
+            ns2:hasEmail <mailto:info@lavegainnova.es> ;
+            ns2:hasTelephone <tel:+34-000-000-000> ;
+            ns2:hasURL <https://lavegainnova.es> ;
+            ns2:organization_name "La Vega Innova"@es ] ;
     dcat:distribution [ a dcat:Distribution ;
             dcterms:description "Distribución de datos en formato CSV"@es ;
             dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
@@ -30,11 +30,11 @@
             dcterms:title "thrsensor_historic_join"@es ;
             dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/thrsensor_historic_join.cda&dataAccessId=agrosensors_thrsensor_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
             dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
-            ns2:applicableLegislation "Reglamento de Implementación 2023/138" ;
-            ns2:availability <http://data.europa.eu/r5r/availability/available> ] ;
+            ns1:applicableLegislation "Reglamento de Implementación 2023/138" ;
+            ns1:availability <http://data.europa.eu/r5r/availability/available> ] ;
     dcat:keyword "agricultura"@es ;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
-    ns2:applicableLegislation "Reglamento de Implementación 2023/138" .
+    ns1:applicableLegislation "Reglamento de Implementación 2023/138" .
 
 <http://publications.europa.eu/resource/authority/data-theme/AGRI> a skos:Concept ;
     skos:inScheme <http://publications.europa.eu/resource/authority/data-theme> .
