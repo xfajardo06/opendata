@@ -11,7 +11,9 @@
     dcterms:modified "2025-04-24"^^xsd:date ;
     dcterms:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401> ;
     dcterms:spatial "Córdoba" ;
-    dcterms:temporal "25-11-2023 a 31-10-2025" ;
+    dcterms:temporal [ a dcterms:PeriodOfTime ;
+            dcat:endDate "2025-10-31"^^xsd:date ;
+            dcat:startDate "2023-11-25"^^xsd:date ] ;
     dcterms:title "Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Datos ambientales y nivel de batería"@es ;
     dcat:distribution <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/thrsensor_historic_join.cda&dataAccessId=agrosensors_thrsensor_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
     dcat:keyword "agricultura"@es ;
