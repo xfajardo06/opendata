@@ -12,7 +12,7 @@
     dcterms:issued "2025-01-30"^^xsd:date ;
     dcterms:modified "2025-04-02"^^xsd:date ;
     dcterms:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401> ;
-    dcterms:spatial <http://datos.gob.es/kos/sector-publico/territorio/espana> ;
+    dcterms:spatial <http://publications.europa.eu/resource/authority/country/ESP> ;
     dcterms:temporal [ a dcterms:PeriodOfTime ;
             dcat:endDate "2025-05-31"^^xsd:date ;
             dcat:startDate "2024-12-03"^^xsd:date ] ;
