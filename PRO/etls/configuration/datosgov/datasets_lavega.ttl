@@ -24,7 +24,7 @@
             ns1:hasURL <https://lavegainnova.es> ;
             ns1:organization_name "La Vega Innova"@es ] ;
     dcat:distribution [ a dcat:Distribution ;
-            dcterms:description ""@es ;
+            dcterms:description "Distribución de datos en formato CSV"@es ;
             dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
             dcterms:license <http://www.opendefinition.org/licenses/odc-pddl> ;
             dcterms:title "thrsensor_historic_join"@es ;
