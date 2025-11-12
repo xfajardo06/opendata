@@ -1,7 +1,7 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ns1: <http://www.w3.org/ns/dcat-ap#> .
-@prefix ns2: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns1: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns2: <http://www.w3.org/ns/dcat-ap#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -12,17 +12,17 @@
     dcterms:issued "2025-02-01"^^xsd:date ;
     dcterms:modified "2025-04-02"^^xsd:date ;
     dcterms:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/cordoba> ;
+    dcterms:spatial <http://publications.europa.eu/resource/authority/country/ESP> ;
     dcterms:temporal [ a dcterms:PeriodOfTime ;
             dcat:endDate "2025-10-31"^^xsd:date ;
             dcat:startDate "2023-11-25"^^xsd:date ] ;
     dcterms:title "Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Datos meteorológicos"@es ;
-    dcat:contactPoint [ a ns2:Kind ;
-            ns2:fn "La Vega Innova"@es ;
-            ns2:hasEmail <mailto:info@lavegainnova.es> ;
-            ns2:hasTelephone <tel:+34-000-000-000> ;
-            ns2:hasURL <https://lavegainnova.es> ;
-            ns2:organization_name "La Vega Innova"@es ] ;
+    dcat:contactPoint [ a ns1:Kind ;
+            ns1:fn "La Vega Innova"@es ;
+            ns1:hasEmail <mailto:info@lavegainnova.es> ;
+            ns1:hasTelephone <tel:+34-000-000-000> ;
+            ns1:hasURL <https://lavegainnova.es> ;
+            ns1:organization_name "La Vega Innova"@es ] ;
     dcat:distribution [ a dcat:Distribution ;
             dcterms:description "Distribución de datos en formato CSV"@es ;
             dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
@@ -30,11 +30,11 @@
             dcterms:title "agroweatherobserved_historic_join"@es ;
             dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/agroweatherobserved_historic_join.cda&dataAccessId=agrosensors_agroweatherobserved_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
             dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
-            ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-            ns1:availability <http://data.europa.eu/r5r/availability/available> ] ;
+            ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+            ns2:availability <http://data.europa.eu/r5r/availability/available> ] ;
     dcat:keyword "agricultura"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca> ;
-    ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+    ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
 
 <http://lavegainnova.es/dataset/2a4f788d-49f4-402d-8acc-9600ab7c0fec> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
@@ -43,18 +43,17 @@
     dcterms:issued "2025-02-01"^^xsd:date ;
     dcterms:modified "2025-04-02"^^xsd:date ;
     dcterms:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401> ;
-    dcterms:spatial [ a dcterms:Location ;
-            skos:prefLabel "Madrid"@es ] ;
+    dcterms:spatial <http://publications.europa.eu/resource/authority/country/ESP> ;
     dcterms:temporal [ a dcterms:PeriodOfTime ;
             dcat:endDate "2025-10-31"^^xsd:date ;
             dcat:startDate "2024-05-14"^^xsd:date ] ;
     dcterms:title "Smart Pivot - Datos de riego y consumo de agua"@es ;
-    dcat:contactPoint [ a ns2:Kind ;
-            ns2:fn "La Vega Innova"@es ;
-            ns2:hasEmail <mailto:info@lavegainnova.es> ;
-            ns2:hasTelephone <tel:+34-000-000-000> ;
-            ns2:hasURL <https://lavegainnova.es> ;
-            ns2:organization_name "La Vega Innova"@es ] ;
+    dcat:contactPoint [ a ns1:Kind ;
+            ns1:fn "La Vega Innova"@es ;
+            ns1:hasEmail <mailto:info@lavegainnova.es> ;
+            ns1:hasTelephone <tel:+34-000-000-000> ;
+            ns1:hasURL <https://lavegainnova.es> ;
+            ns1:organization_name "La Vega Innova"@es ] ;
     dcat:distribution [ a dcat:Distribution ;
             dcterms:description "Distribución de datos en formato CSV"@es ;
             dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
@@ -62,11 +61,11 @@
             dcterms:title "irrigationoperation_historic_join"@es ;
             dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationoperation_historic_join.cda&dataAccessId=crops_irrigationoperation_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
             dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
-            ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-            ns1:availability <http://data.europa.eu/r5r/availability/available> ] ;
+            ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+            ns2:availability <http://data.europa.eu/r5r/availability/available> ] ;
     dcat:keyword "agricultura"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca> ;
-    ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+    ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
 
 <http://lavegainnova.es/dataset/2d0e29f2-8f86-49b5-b21f-7114a5c832d0> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
@@ -75,18 +74,17 @@
     dcterms:issued "2025-02-01"^^xsd:date ;
     dcterms:modified "2025-04-02"^^xsd:date ;
     dcterms:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401> ;
-    dcterms:spatial [ a dcterms:Location ;
-            skos:prefLabel "Madrid"@es ] ;
+    dcterms:spatial <http://publications.europa.eu/resource/authority/country/ESP> ;
     dcterms:temporal [ a dcterms:PeriodOfTime ;
             dcat:endDate "2025-10-31"^^xsd:date ;
             dcat:startDate "2024-05-14"^^xsd:date ] ;
     dcterms:title "Smart Pivot - Datos meteorológicos observados"@es ;
-    dcat:contactPoint [ a ns2:Kind ;
-            ns2:fn "La Vega Innova"@es ;
-            ns2:hasEmail <mailto:info@lavegainnova.es> ;
-            ns2:hasTelephone <tel:+34-000-000-000> ;
-            ns2:hasURL <https://lavegainnova.es> ;
-            ns2:organization_name "La Vega Innova"@es ] ;
+    dcat:contactPoint [ a ns1:Kind ;
+            ns1:fn "La Vega Innova"@es ;
+            ns1:hasEmail <mailto:info@lavegainnova.es> ;
+            ns1:hasTelephone <tel:+34-000-000-000> ;
+            ns1:hasURL <https://lavegainnova.es> ;
+            ns1:organization_name "La Vega Innova"@es ] ;
     dcat:distribution [ a dcat:Distribution ;
             dcterms:description "Distribución de datos en formato CSV"@es ;
             dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
@@ -94,11 +92,11 @@
             dcterms:title "agroweatherobserved_historic_join"@es ;
             dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherobserved_historic_join.cda&dataAccessId=crops_agroweatherobserved_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
             dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
-            ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-            ns1:availability <http://data.europa.eu/r5r/availability/available> ] ;
+            ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+            ns2:availability <http://data.europa.eu/r5r/availability/available> ] ;
     dcat:keyword "agricultura"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca> ;
-    ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+    ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
 
 <http://lavegainnova.es/dataset/3422e507-6394-4235-9cf4-187cb04ddf31> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
@@ -107,18 +105,17 @@
     dcterms:issued "2025-02-01"^^xsd:date ;
     dcterms:modified "2025-04-02"^^xsd:date ;
     dcterms:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401> ;
-    dcterms:spatial [ a dcterms:Location ;
-            skos:prefLabel "Madrid"@es ] ;
+    dcterms:spatial <http://publications.europa.eu/resource/authority/country/ESP> ;
     dcterms:temporal [ a dcterms:PeriodOfTime ;
             dcat:endDate "2025-10-31"^^xsd:date ;
             dcat:startDate "2023-12-20"^^xsd:date ] ;
     dcterms:title "Fertilización Inteligente - Prescripciones de fertilizante"@es ;
-    dcat:contactPoint [ a ns2:Kind ;
-            ns2:fn "La Vega Innova"@es ;
-            ns2:hasEmail <mailto:info@lavegainnova.es> ;
-            ns2:hasTelephone <tel:+34-000-000-000> ;
-            ns2:hasURL <https://lavegainnova.es> ;
-            ns2:organization_name "La Vega Innova"@es ] ;
+    dcat:contactPoint [ a ns1:Kind ;
+            ns1:fn "La Vega Innova"@es ;
+            ns1:hasEmail <mailto:info@lavegainnova.es> ;
+            ns1:hasTelephone <tel:+34-000-000-000> ;
+            ns1:hasURL <https://lavegainnova.es> ;
+            ns1:organization_name "La Vega Innova"@es ] ;
     dcat:distribution [ a dcat:Distribution ;
             dcterms:description "Distribución de datos en formato CSV"@es ;
             dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
@@ -126,11 +123,11 @@
             dcterms:title "gridcellprescription_lastdata_batch"@es ;
             dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellprescription_lastdata_batch.cda&dataAccessId=fertilization_batch_gridcellprescription_lastdata&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
             dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
-            ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-            ns1:availability <http://data.europa.eu/r5r/availability/available> ] ;
+            ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+            ns2:availability <http://data.europa.eu/r5r/availability/available> ] ;
     dcat:keyword "agricultura"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca> ;
-    ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+    ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
 
 <http://lavegainnova.es/dataset/3e0313e1-bac8-4d5e-aa02-35f37d33907e> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
@@ -139,18 +136,17 @@
     dcterms:issued "2025-02-01"^^xsd:date ;
     dcterms:modified "2025-04-02"^^xsd:date ;
     dcterms:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401> ;
-    dcterms:spatial [ a dcterms:Location ;
-            skos:prefLabel "Madrid"@es ] ;
+    dcterms:spatial <http://publications.europa.eu/resource/authority/country/ESP> ;
     dcterms:temporal [ a dcterms:PeriodOfTime ;
             dcat:endDate "2025-10-31"^^xsd:date ;
             dcat:startDate "2024-05-14"^^xsd:date ] ;
     dcterms:title "Smart Pivot - Parámetros de cultivo"@es ;
-    dcat:contactPoint [ a ns2:Kind ;
-            ns2:fn "La Vega Innova"@es ;
-            ns2:hasEmail <mailto:info@lavegainnova.es> ;
-            ns2:hasTelephone <tel:+34-000-000-000> ;
-            ns2:hasURL <https://lavegainnova.es> ;
-            ns2:organization_name "La Vega Innova"@es ] ;
+    dcat:contactPoint [ a ns1:Kind ;
+            ns1:fn "La Vega Innova"@es ;
+            ns1:hasEmail <mailto:info@lavegainnova.es> ;
+            ns1:hasTelephone <tel:+34-000-000-000> ;
+            ns1:hasURL <https://lavegainnova.es> ;
+            ns1:organization_name "La Vega Innova"@es ] ;
     dcat:distribution [ a dcat:Distribution ;
             dcterms:description "Distribución de datos en formato CSV"@es ;
             dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
@@ -158,11 +154,11 @@
             dcterms:title "agriparcel_historic_join"@es ;
             dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agriparcel_historic_join.cda&dataAccessId=crops_agriparcel_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
             dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
-            ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-            ns1:availability <http://data.europa.eu/r5r/availability/available> ] ;
+            ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+            ns2:availability <http://data.europa.eu/r5r/availability/available> ] ;
     dcat:keyword "agricultura"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca> ;
-    ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+    ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
 
 <http://lavegainnova.es/dataset/402c32a8-1278-4b69-8cee-ace354948d1c> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
@@ -172,18 +168,17 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
     dcterms:issued "2025-02-01"^^xsd:date ;
     dcterms:modified "2025-04-02"^^xsd:date ;
     dcterms:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401> ;
-    dcterms:spatial [ a dcterms:Location ;
-            skos:prefLabel "Madrid"@es ] ;
+    dcterms:spatial <http://publications.europa.eu/resource/authority/country/ESP> ;
     dcterms:temporal [ a dcterms:PeriodOfTime ;
             dcat:endDate "2025-10-31"^^xsd:date ;
             dcat:startDate "2024-05-14"^^xsd:date ] ;
     dcterms:title "Smart Pivot - Recomendaciones futuras de riego"@es ;
-    dcat:contactPoint [ a ns2:Kind ;
-            ns2:fn "La Vega Innova"@es ;
-            ns2:hasEmail <mailto:info@lavegainnova.es> ;
-            ns2:hasTelephone <tel:+34-000-000-000> ;
-            ns2:hasURL <https://lavegainnova.es> ;
-            ns2:organization_name "La Vega Innova"@es ] ;
+    dcat:contactPoint [ a ns1:Kind ;
+            ns1:fn "La Vega Innova"@es ;
+            ns1:hasEmail <mailto:info@lavegainnova.es> ;
+            ns1:hasTelephone <tel:+34-000-000-000> ;
+            ns1:hasURL <https://lavegainnova.es> ;
+            ns1:organization_name "La Vega Innova"@es ] ;
     dcat:distribution [ a dcat:Distribution ;
             dcterms:description "Distribución de datos en formato CSV"@es ;
             dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
@@ -191,11 +186,11 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
             dcterms:title "Distribución CSV"@es ;
             dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationrecommendation_historic_join.cda&dataAccessId=crops_irrigationrecommendation_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
             dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
-            ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-            ns1:availability <http://data.europa.eu/r5r/availability/available> ] ;
+            ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+            ns2:availability <http://data.europa.eu/r5r/availability/available> ] ;
     dcat:keyword "agricultura"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca> ;
-    ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+    ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
 
 <http://lavegainnova.es/dataset/5fdc8cc9-a042-410f-85e3-66ec3615c9f3> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
@@ -209,12 +204,12 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
             dcat:endDate "2025-10-31"^^xsd:date ;
             dcat:startDate "2018-01-01"^^xsd:date ] ;
     dcterms:title "Estimación de Rendimiento - Histórico Agroclimático y Productivo Olivar"@es ;
-    dcat:contactPoint [ a ns2:Kind ;
-            ns2:fn "La Vega Innova"@es ;
-            ns2:hasEmail <mailto:info@lavegainnova.es> ;
-            ns2:hasTelephone <tel:+34-000-000-000> ;
-            ns2:hasURL <https://lavegainnova.es> ;
-            ns2:organization_name "La Vega Innova"@es ] ;
+    dcat:contactPoint [ a ns1:Kind ;
+            ns1:fn "La Vega Innova"@es ;
+            ns1:hasEmail <mailto:info@lavegainnova.es> ;
+            ns1:hasTelephone <tel:+34-000-000-000> ;
+            ns1:hasURL <https://lavegainnova.es> ;
+            ns1:organization_name "La Vega Innova"@es ] ;
     dcat:distribution [ a dcat:Distribution ;
             dcterms:description "Distribución de datos en formato CSV"@es ;
             dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
@@ -222,11 +217,11 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
             dcterms:title "harvest_historic"@es ;
             dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=public/ihub_mapa/verticals/harvests/sql/harvest_historic_mutable.cda&dataAccessId=harvest_harvest_mutable&paramentityid=&paramstart=2020-01-01%2000%3A00%3A00&paramfinish=2027-01-31%2023%3A59%3A59&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
             dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
-            ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-            ns1:availability <http://data.europa.eu/r5r/availability/available> ] ;
+            ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+            ns2:availability <http://data.europa.eu/r5r/availability/available> ] ;
     dcat:keyword "agricultura"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca> ;
-    ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+    ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
 
 <http://lavegainnova.es/dataset/61666b49-c102-4ee7-8878-84bc047f2243> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
@@ -236,18 +231,17 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     dcterms:issued "2025-02-01"^^xsd:date ;
     dcterms:modified "2025-04-02"^^xsd:date ;
     dcterms:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401> ;
-    dcterms:spatial [ a dcterms:Location ;
-            skos:prefLabel "Madrid"@es ] ;
+    dcterms:spatial <http://publications.europa.eu/resource/authority/country/ESP> ;
     dcterms:temporal [ a dcterms:PeriodOfTime ;
             dcat:endDate "2025-10-31"^^xsd:date ;
             dcat:startDate "2024-05-14"^^xsd:date ] ;
     dcterms:title "Smart Pivot - Parámetros del pivot"@es ;
-    dcat:contactPoint [ a ns2:Kind ;
-            ns2:fn "La Vega Innova"@es ;
-            ns2:hasEmail <mailto:info@lavegainnova.es> ;
-            ns2:hasTelephone <tel:+34-000-000-000> ;
-            ns2:hasURL <https://lavegainnova.es> ;
-            ns2:organization_name "La Vega Innova"@es ] ;
+    dcat:contactPoint [ a ns1:Kind ;
+            ns1:fn "La Vega Innova"@es ;
+            ns1:hasEmail <mailto:info@lavegainnova.es> ;
+            ns1:hasTelephone <tel:+34-000-000-000> ;
+            ns1:hasURL <https://lavegainnova.es> ;
+            ns1:organization_name "La Vega Innova"@es ] ;
     dcat:distribution [ a dcat:Distribution ;
             dcterms:description "Distribución de datos en formato CSV"@es ;
             dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
@@ -255,11 +249,11 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
             dcterms:title "irrigationpivot_historic_join"@es ;
             dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationpivot_historic_join.cda&dataAccessId=crops_irrigationpivot_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
             dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
-            ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-            ns1:availability <http://data.europa.eu/r5r/availability/available> ] ;
+            ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+            ns2:availability <http://data.europa.eu/r5r/availability/available> ] ;
     dcat:keyword "agricultura"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca> ;
-    ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+    ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
 
 <http://lavegainnova.es/dataset/6940281b-e8f6-449e-b7d8-0c51b9d5db7d> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
@@ -273,12 +267,12 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
             dcat:endDate "2025-05-31"^^xsd:date ;
             dcat:startDate "2024-12-03"^^xsd:date ] ;
     dcterms:title "Cercados Virtuales - Monitorización animal con collares IoT en explotaciones ganaderas"@es ;
-    dcat:contactPoint [ a ns2:Kind ;
-            ns2:fn "La Vega Innova"@es ;
-            ns2:hasEmail <mailto:info@lavegainnova.es> ;
-            ns2:hasTelephone <tel:+34-000-000-000> ;
-            ns2:hasURL <https://lavegainnova.es> ;
-            ns2:organization_name "La Vega Innova"@es ] ;
+    dcat:contactPoint [ a ns1:Kind ;
+            ns1:fn "La Vega Innova"@es ;
+            ns1:hasEmail <mailto:info@lavegainnova.es> ;
+            ns1:hasTelephone <tel:+34-000-000-000> ;
+            ns1:hasURL <https://lavegainnova.es> ;
+            ns1:organization_name "La Vega Innova"@es ] ;
     dcat:distribution [ a dcat:Distribution ;
             dcterms:description "Distribución de datos en formato CSV"@es ;
             dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
@@ -286,11 +280,11 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
             dcterms:title "animal_historic_join"@es ;
             dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/virtualenclosures/sql/animal_historic_join.cda&dataAccessId=virtualenclosures_animal_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
             dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
-            ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-            ns1:availability <http://data.europa.eu/r5r/availability/available> ] ;
+            ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+            ns2:availability <http://data.europa.eu/r5r/availability/available> ] ;
     dcat:keyword "ganadería"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca> ;
-    ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+    ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
 
 <http://lavegainnova.es/dataset/7bc1d2c8-bb52-4af0-ab01-9fab31d52ac3> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
@@ -299,17 +293,17 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     dcterms:issued "2025-04-02"^^xsd:date ;
     dcterms:modified "2025-04-24"^^xsd:date ;
     dcterms:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/cordoba> ;
+    dcterms:spatial <http://publications.europa.eu/resource/authority/country/ESP> ;
     dcterms:temporal [ a dcterms:PeriodOfTime ;
             dcat:endDate "2025-10-31"^^xsd:date ;
             dcat:startDate "2023-11-25"^^xsd:date ] ;
     dcterms:title "Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Datos ambientales y nivel de batería"@es ;
-    dcat:contactPoint [ a ns2:Kind ;
-            ns2:fn "La Vega Innova"@es ;
-            ns2:hasEmail <mailto:info@lavegainnova.es> ;
-            ns2:hasTelephone <tel:+34-000-000-000> ;
-            ns2:hasURL <https://lavegainnova.es> ;
-            ns2:organization_name "La Vega Innova"@es ] ;
+    dcat:contactPoint [ a ns1:Kind ;
+            ns1:fn "La Vega Innova"@es ;
+            ns1:hasEmail <mailto:info@lavegainnova.es> ;
+            ns1:hasTelephone <tel:+34-000-000-000> ;
+            ns1:hasURL <https://lavegainnova.es> ;
+            ns1:organization_name "La Vega Innova"@es ] ;
     dcat:distribution [ a dcat:Distribution ;
             dcterms:description "Distribución de datos en formato CSV"@es ;
             dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
@@ -317,11 +311,11 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
             dcterms:title "thrsensor_historic_join"@es ;
             dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/thrsensor_historic_join.cda&dataAccessId=agrosensors_thrsensor_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
             dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
-            ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-            ns1:availability <http://data.europa.eu/r5r/availability/available> ] ;
+            ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+            ns2:availability <http://data.europa.eu/r5r/availability/available> ] ;
     dcat:keyword "agricultura"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca> ;
-    ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+    ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
 
 <http://lavegainnova.es/dataset/9590faa4-5b78-4ba9-ad62-6dccfcb512d9> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
@@ -330,18 +324,17 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     dcterms:issued "2025-02-01"^^xsd:date ;
     dcterms:modified "2025-04-02"^^xsd:date ;
     dcterms:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401> ;
-    dcterms:spatial [ a dcterms:Location ;
-            skos:prefLabel "Madrid"@es ] ;
+    dcterms:spatial <http://publications.europa.eu/resource/authority/country/ESP> ;
     dcterms:temporal [ a dcterms:PeriodOfTime ;
             dcat:endDate "2025-10-31"^^xsd:date ;
             dcat:startDate "2024-05-14"^^xsd:date ] ;
     dcterms:title "Smart Pivot - Pronósticos meteorológicos y ambientales"@es ;
-    dcat:contactPoint [ a ns2:Kind ;
-            ns2:fn "La Vega Innova"@es ;
-            ns2:hasEmail <mailto:info@lavegainnova.es> ;
-            ns2:hasTelephone <tel:+34-000-000-000> ;
-            ns2:hasURL <https://lavegainnova.es> ;
-            ns2:organization_name "La Vega Innova"@es ] ;
+    dcat:contactPoint [ a ns1:Kind ;
+            ns1:fn "La Vega Innova"@es ;
+            ns1:hasEmail <mailto:info@lavegainnova.es> ;
+            ns1:hasTelephone <tel:+34-000-000-000> ;
+            ns1:hasURL <https://lavegainnova.es> ;
+            ns1:organization_name "La Vega Innova"@es ] ;
     dcat:distribution [ a dcat:Distribution ;
             dcterms:description "Distribución de datos en formato CSV"@es ;
             dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
@@ -349,11 +342,11 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
             dcterms:title "agroweatherforecast_historic_join"@es ;
             dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherforecast_historic_join.cda&dataAccessId=crops_agroweatherforecast_historic_join&paramstart=&paramfinish=&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
             dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
-            ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-            ns1:availability <http://data.europa.eu/r5r/availability/available> ] ;
+            ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+            ns2:availability <http://data.europa.eu/r5r/availability/available> ] ;
     dcat:keyword "agricultura"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca> ;
-    ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+    ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
 
 <http://lavegainnova.es/dataset/b2532ab2-1ad7-4ed7-909a-295f21b7d143> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
@@ -362,18 +355,17 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     dcterms:issued "2025-02-01"^^xsd:date ;
     dcterms:modified "2025-04-02"^^xsd:date ;
     dcterms:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401> ;
-    dcterms:spatial [ a dcterms:Location ;
-            skos:prefLabel "Madrid"@es ] ;
+    dcterms:spatial <http://publications.europa.eu/resource/authority/country/ESP> ;
     dcterms:temporal [ a dcterms:PeriodOfTime ;
             dcat:endDate "2025-10-31"^^xsd:date ;
             dcat:startDate "2023-11-25"^^xsd:date ] ;
     dcterms:title "Integración Norma  UNE 318.000 - Datos históricos"@es ;
-    dcat:contactPoint [ a ns2:Kind ;
-            ns2:fn "La Vega Innova"@es ;
-            ns2:hasEmail <mailto:info@lavegainnova.es> ;
-            ns2:hasTelephone <tel:+34-000-000-000> ;
-            ns2:hasURL <https://lavegainnova.es> ;
-            ns2:organization_name "La Vega Innova"@es ] ;
+    dcat:contactPoint [ a ns1:Kind ;
+            ns1:fn "La Vega Innova"@es ;
+            ns1:hasEmail <mailto:info@lavegainnova.es> ;
+            ns1:hasTelephone <tel:+34-000-000-000> ;
+            ns1:hasURL <https://lavegainnova.es> ;
+            ns1:organization_name "La Vega Innova"@es ] ;
     dcat:distribution [ a dcat:Distribution ;
             dcterms:description "Distribución de datos en formato CSV"@es ;
             dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
@@ -381,11 +373,11 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
             dcterms:title "irrigationune_lastdata"@es ;
             dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/irrigationune/sql/irrigationune_lastdata.cda&dataAccessId=irrigationune_irrigationune_lastdata&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
             dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
-            ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-            ns1:availability <http://data.europa.eu/r5r/availability/available> ] ;
+            ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+            ns2:availability <http://data.europa.eu/r5r/availability/available> ] ;
     dcat:keyword "agricultura"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca> ;
-    ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+    ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
 
 <http://lavegainnova.es/dataset/ceb48d59-1e5d-407d-bb43-b0c84b9e2438> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
@@ -394,18 +386,17 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     dcterms:issued "2025-02-01"^^xsd:date ;
     dcterms:modified "2025-04-02"^^xsd:date ;
     dcterms:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401> ;
-    dcterms:spatial [ a dcterms:Location ;
-            skos:prefLabel "Madrid"@es ] ;
+    dcterms:spatial <http://publications.europa.eu/resource/authority/country/ESP> ;
     dcterms:temporal [ a dcterms:PeriodOfTime ;
             dcat:endDate "2025-10-31"^^xsd:date ;
             dcat:startDate "2023-12-20"^^xsd:date ] ;
     dcterms:title "Fertilización Inteligente - Análisis fisicoquímicos del suelo"@es ;
-    dcat:contactPoint [ a ns2:Kind ;
-            ns2:fn "La Vega Innova"@es ;
-            ns2:hasEmail <mailto:info@lavegainnova.es> ;
-            ns2:hasTelephone <tel:+34-000-000-000> ;
-            ns2:hasURL <https://lavegainnova.es> ;
-            ns2:organization_name "La Vega Innova"@es ] ;
+    dcat:contactPoint [ a ns1:Kind ;
+            ns1:fn "La Vega Innova"@es ;
+            ns1:hasEmail <mailto:info@lavegainnova.es> ;
+            ns1:hasTelephone <tel:+34-000-000-000> ;
+            ns1:hasURL <https://lavegainnova.es> ;
+            ns1:organization_name "La Vega Innova"@es ] ;
     dcat:distribution [ a dcat:Distribution ;
             dcterms:description "Distribución de datos en formato CSV"@es ;
             dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
@@ -413,11 +404,11 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
             dcterms:title "gridcellsampling_lastdata_batch"@es ;
             dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellsampling_lastdata_batch.cda&dataAccessId=fertilization_batch_gridcellsampling_lastdata&paramentityid=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
             dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
-            ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-            ns1:availability <http://data.europa.eu/r5r/availability/available> ] ;
+            ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+            ns2:availability <http://data.europa.eu/r5r/availability/available> ] ;
     dcat:keyword "agricultura"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca> ;
-    ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+    ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
 
 <http://lavegainnova.es/dataset/da8e6f5e-3c8b-4672-ac98-709af0ae65ec> a dcat:Dataset ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
@@ -426,17 +417,17 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     dcterms:issued "2025-02-01"^^xsd:date ;
     dcterms:modified "2025-04-02"^^xsd:date ;
     dcterms:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401> ;
-    dcterms:spatial <http://datos.gob.es/recurso/sector-publico/territorio/Provincia/cordoba> ;
+    dcterms:spatial <http://publications.europa.eu/resource/authority/country/ESP> ;
     dcterms:temporal [ a dcterms:PeriodOfTime ;
             dcat:endDate "2025-10-31"^^xsd:date ;
             dcat:startDate "2023-11-25"^^xsd:date ] ;
     dcterms:title "Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Condiciones del suelo"@es ;
-    dcat:contactPoint [ a ns2:Kind ;
-            ns2:fn "La Vega Innova"@es ;
-            ns2:hasEmail <mailto:info@lavegainnova.es> ;
-            ns2:hasTelephone <tel:+34-000-000-000> ;
-            ns2:hasURL <https://lavegainnova.es> ;
-            ns2:organization_name "La Vega Innova"@es ] ;
+    dcat:contactPoint [ a ns1:Kind ;
+            ns1:fn "La Vega Innova"@es ;
+            ns1:hasEmail <mailto:info@lavegainnova.es> ;
+            ns1:hasTelephone <tel:+34-000-000-000> ;
+            ns1:hasURL <https://lavegainnova.es> ;
+            ns1:organization_name "La Vega Innova"@es ] ;
     dcat:distribution [ a dcat:Distribution ;
             dcterms:description "Distribución de datos en formato CSV"@es ;
             dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
@@ -444,11 +435,11 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
             dcterms:title "soilobserved_historic_join"@es ;
             dcat:accessURL <https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/soilobserved_historic_join.cda&dataAccessId=agrosensors_soilobserved_historic_join&paramstart=&paramfinish=&paramentityid=&paramuneentitytype=&_TRUST_USER_=opendata_ihub_mapa&outputType=csv> ;
             dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
-            ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-            ns1:availability <http://data.europa.eu/r5r/availability/available> ] ;
+            ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+            ns2:availability <http://data.europa.eu/r5r/availability/available> ] ;
     dcat:keyword "agricultura"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca> ;
-    ns1:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+    ns2:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
 
 <http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca> a skos:Concept ;
     skos:inScheme <http://datos.gob.es/kos/sector-publico/sector> ;
